@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import os
 import re
 
+
 # Sidebar navigation
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Alzheimer's Detection", "Dementia Education"])
@@ -290,4 +291,5 @@ elif page == "Dementia Education":
         </div>
         """, unsafe_allow_html=True)
 
+    
     st.caption("This information is for educational purposes only. Consult a healthcare professional for medical advice.")
